@@ -11,7 +11,6 @@ import SwiftUI
 struct SquaresInIzmirApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
         }
     }
 }

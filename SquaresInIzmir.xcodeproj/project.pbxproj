@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B679A27928F6C46D00484BA1 /* SquaresInIzmirApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B679A27828F6C46D00484BA1 /* SquaresInIzmirApp.swift */; };
-		B679A27B28F6C46D00484BA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B679A27A28F6C46D00484BA1 /* ContentView.swift */; };
 		B679A27D28F6C46E00484BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B679A27C28F6C46E00484BA1 /* Assets.xcassets */; };
 		B679A28028F6C46E00484BA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B679A27F28F6C46E00484BA1 /* Preview Assets.xcassets */; };
+		B6B84AC028F7F8D600E94C9D /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B84ABF28F7F8D600E94C9D /* Color+Ext.swift */; };
+		B6B84AC228F7F92900E94C9D /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B84AC128F7F92900E94C9D /* AppTabView.swift */; };
+		B6B84AC428F7F94C00E94C9D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B84AC328F7F94C00E94C9D /* MapView.swift */; };
+		B6B84AC828F7F97000E94C9D /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B84AC728F7F97000E94C9D /* ListView.swift */; };
+		B6B84ACA28F7F97900E94C9D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B84AC928F7F97900E94C9D /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B679A27528F6C46D00484BA1 /* SquaresInIzmir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquaresInIzmir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B679A27828F6C46D00484BA1 /* SquaresInIzmirApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresInIzmirApp.swift; sourceTree = "<group>"; };
-		B679A27A28F6C46D00484BA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B679A27C28F6C46E00484BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B679A27F28F6C46E00484BA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B679A29928F6DA8400484BA1 /* SquaresInIzmir.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SquaresInIzmir.entitlements; sourceTree = "<group>"; };
+		B6B84ABF28F7F8D600E94C9D /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		B6B84AC128F7F92900E94C9D /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		B6B84AC328F7F94C00E94C9D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B6B84AC728F7F97000E94C9D /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		B6B84AC928F7F97900E94C9D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		B679A27728F6C46D00484BA1 /* SquaresInIzmir */ = {
 			isa = PBXGroup;
 			children = (
+				B679A29928F6DA8400484BA1 /* SquaresInIzmir.entitlements */,
 				B679A27828F6C46D00484BA1 /* SquaresInIzmirApp.swift */,
-				B679A27A28F6C46D00484BA1 /* ContentView.swift */,
 				B679A27C28F6C46E00484BA1 /* Assets.xcassets */,
 				B679A27E28F6C46E00484BA1 /* Preview Content */,
+				B6B84ABF28F7F8D600E94C9D /* Color+Ext.swift */,
+				B6B84AC128F7F92900E94C9D /* AppTabView.swift */,
+				B6B84AC328F7F94C00E94C9D /* MapView.swift */,
+				B6B84AC728F7F97000E94C9D /* ListView.swift */,
+				B6B84AC928F7F97900E94C9D /* ProfileView.swift */,
 			);
 			path = SquaresInIzmir;
 			sourceTree = "<group>";
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B679A27B28F6C46D00484BA1 /* ContentView.swift in Sources */,
+				B6B84AC228F7F92900E94C9D /* AppTabView.swift in Sources */,
+				B6B84AC428F7F94C00E94C9D /* MapView.swift in Sources */,
+				B6B84AC828F7F97000E94C9D /* ListView.swift in Sources */,
 				B679A27928F6C46D00484BA1 /* SquaresInIzmirApp.swift in Sources */,
+				B6B84ACA28F7F97900E94C9D /* ProfileView.swift in Sources */,
+				B6B84AC028F7F8D600E94C9D /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SquaresInIzmir/SquaresInIzmir.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SquaresInIzmir/Preview Content\"";
@@ -293,6 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SquaresInIzmir/SquaresInIzmir.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SquaresInIzmir/Preview Content\"";
