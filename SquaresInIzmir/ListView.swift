@@ -16,30 +16,11 @@ struct ListView: View {
             List {
                 ForEach(0..<10) { item in
                     NavigationLink {
-                        //Go to detail
+                        SquareDetailView()
                     } label: {
-                        HStack(spacing: 15) {
-                            Image("placeholder-Square")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 80)
-                                .clipShape(Circle())
-                                .padding(.vertical, 8)
-                            
-                            VStack(alignment: .leading) {
-                                Text("Name of the square")
-                                    .font(.title2)
-                                    .fontWeight(.semibold)
-                                    .lineLimit(1)
-                                   
-                                HStack {
-                                    AvatarView()
-                                    AvatarView()
-                                    AvatarView()
-                                }
-                            }
-                        }
+                        SquareCell()
                     }
+
 
 
                 }
@@ -62,5 +43,31 @@ struct AvatarView: View {
             .scaledToFit()
             .frame(width: 35)
             .clipShape(Circle())
+    }
+}
+
+struct SquareCell: View {
+    var body: some View {
+        HStack(spacing: 15) {
+            Image("placeholder-Square")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 80)
+                .clipShape(Circle())
+                .padding(.vertical, 8)
+            
+            VStack(alignment: .leading) {
+                Text("Name of the square")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                    .lineLimit(1)
+                   
+                HStack {
+                    AvatarView()
+                    AvatarView()
+                    AvatarView()
+                }
+            }
+        }
     }
 }
